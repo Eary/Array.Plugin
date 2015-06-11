@@ -16,6 +16,10 @@ console.log(arr);//['a','b','d','e','f','g',1,2,3];
 
 
 ```javascript
+/**
+ * 克隆一个数组
+ * @return {Array} 新的数组
+ */
 Array.prototype.clone = function(){
     return this.slice(0);
 };
@@ -27,7 +31,10 @@ console.log(b);//['a','b','e','f','g',1,2,3]
 
 
 ```javascript
-Array.prototype.empty = function(){
+/**
+ * 清空数组
+ */
+Array.prototype.clear = function(){
     this.length = 0;
 };
 //Example
@@ -38,6 +45,10 @@ console.log(arr);//[]
 
 
 ```javascript
+/**
+ * 移除指定元素
+ * @param  {[type]} item 要移除的元素
+ */
 Array.prototype.remove = function(item){
     for(var i = this.length-1; i--;){
         if(this[i] === item ) this.splice(i, 1);

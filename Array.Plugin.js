@@ -9,7 +9,7 @@
     Array.prototype.clone = function(){
         return this.slice(0);
     };
-    Array.prototype.empty = function(){
+    Array.prototype.clear = function(){
         this.length = 0;
     };
     Array.prototype.remove = function(item){
