@@ -47,7 +47,7 @@ console.log(arr);//[]
 ```javascript
 /**
  * 移除指定元素
- * @param  {[type]} item 要移除的元素
+ * @param  {Object} item 要移除的元素
  */
 Array.prototype.remove = function(item){
     for(var i = this.length-1; i--;){
