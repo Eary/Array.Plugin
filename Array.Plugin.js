@@ -1,6 +1,6 @@
 /**
  * Author:niineo
- * Github:https://github.com/niineo/Array.plugin
+ * Github:https://github.com/Niineo/Array.Plugin
  */
 (function(){
     Array.prototype.insert = function(i,item){
