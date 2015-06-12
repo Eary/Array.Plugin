@@ -25,7 +25,7 @@ Array.prototype.clone = function(){
 };
 //Example
 var arr = ['a','b','e','f','g',1,2,3],
-    b = arr.clone(2,'d');
+    b = arr.clone();
 console.log(b);//['a','b','e','f','g',1,2,3]
 ```
 
